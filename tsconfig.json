@@ -18,7 +18,15 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/*"]
+      "@/*": ["./src/*"],
+      "@/public/*": ["./public/*"],
+      "@/context/*": ["./src/context/*"],
+      "@/styles/*": ["./src/app/styles/*"],
+      "@/layout/*": ["./src/app/components/layout/*"],
+      "@/organisms/*": ["./src/app/components/organisms/*"],
+      "@/molecules/*": ["./src/app/components/molecules/*"],
+      "@/atoms/*": ["./src/app/components/atoms/*"],
+      "@/dynamics/*": ["./src/app/components/dynamics/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
