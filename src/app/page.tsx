@@ -4,6 +4,7 @@ import MainLayout from "@/layout/MainLayout";
 import HeaderSection from "@/organisms/HeaderSection";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
+import AboutMeSection from "@/organisms/AboutMeSection";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -22,6 +23,7 @@ export default function Home() {
     <main>
       <MainLayout>
         <HeaderSection />
+        <AboutMeSection />
       </MainLayout>
     </main>
   );
