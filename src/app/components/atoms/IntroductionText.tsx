@@ -10,7 +10,7 @@ const IntroductionText: React.FC = () => {
 
   return (
     <Col>
-      <span className="fs-3">Hi, I'm</span>
+      <span className="fs-3">Hi, I&apos;m</span>
       <br />
       <h1 className="fw-500">Andres Manrique</h1>
       <p className="fs-5 text-secondary">
