@@ -26,7 +26,8 @@
       "@/organisms/*": ["./src/app/components/organisms/*"],
       "@/molecules/*": ["./src/app/components/molecules/*"],
       "@/atoms/*": ["./src/app/components/atoms/*"],
-      "@/dynamics/*": ["./src/app/components/dynamics/*"]
+      "@/dynamics/*": ["./src/app/components/dynamics/*"],
+      "@/model/*": ["./src/app/model/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],

@@ -18,7 +18,7 @@ const BackDropSVG: React.FC = () => {
           height="66.1654"
           rx="12"
           fill="url(#paint0_radial_112_2365)"
-          fill-opacity="0.2"
+          fillOpacity="0.2"
         ></rect>
         <rect
           x="1"
@@ -27,7 +27,7 @@ const BackDropSVG: React.FC = () => {
           height="66.1654"
           rx="12"
           stroke="url(#paint1_linear_112_2365)"
-          stroke-width="2"
+          strokeWidth="2"
         ></rect>
       </g>
       <defs>
@@ -38,9 +38,9 @@ const BackDropSVG: React.FC = () => {
           className="w-fit"
           height="116.165"
           filterUnits="userSpaceOnUse"
-          color-interpolation-filters="sRGB"
+          colorInterpolationFilters="sRGB"
         >
-          <feFlood flood-opacity="0" result="BackgroundImageFix"></feFlood>
+          <feFlood floodOpacity="0" result="BackgroundImageFix"></feFlood>
           <feGaussianBlur
             in="BackgroundImageFix"
             stdDeviation="12"
@@ -65,8 +65,8 @@ const BackDropSVG: React.FC = () => {
           gradientUnits="userSpaceOnUse"
           gradientTransform="translate(1 1.39648) rotate(14.4915) scale(264.412 128.121)"
         >
-          <stop stop-color="#00C16A"></stop>
-          <stop offset="1" stop-color="#4CCC81" stop-opacity="0"></stop>
+          <stop stopColor="#00C16A"></stop>
+          <stop offset="1" stopColor="#4CCC81" stopOpacity="0"></stop>
         </radialGradient>
         <linearGradient
           id="paint1_linear_112_2365"
@@ -76,8 +76,8 @@ const BackDropSVG: React.FC = () => {
           gradientUnits="userSpaceOnUse"
           x1="128.27537085104268"
         >
-          <stop stop-color="#00C16A"></stop>
-          <stop offset="1" stop-color="#4CCC81" stop-opacity="0"></stop>
+          <stop stopColor="#00C16A"></stop>
+          <stop offset="1" stopColor="#4CCC81" stopOpacity="0"></stop>
         </linearGradient>
       </defs>
     </svg>

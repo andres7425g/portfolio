@@ -21,6 +21,8 @@
 
 [data-theme="dark"] {
   --body-bg: #242424;
+  --bs-body-bg:var(--bs-dark);
+  --bs-card-color: #fff 
 }
 
 [data-theme="light"] {

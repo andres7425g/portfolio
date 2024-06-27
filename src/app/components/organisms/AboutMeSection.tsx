@@ -16,6 +16,7 @@ const AboutMeSection: React.FC = () => {
           </Col>
         </Row>
       </Container>
+      <hr />
     </section>
   );
 };

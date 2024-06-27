@@ -5,6 +5,7 @@ import HeaderSection from "@/organisms/HeaderSection";
 import { useEffect, useState } from "react";
 import { useTheme } from "next-themes";
 import AboutMeSection from "@/organisms/AboutMeSection";
+import SkillSection from "@/organisms/SkillSection";
 
 export default function Home() {
   const [mounted, setMounted] = useState(false);
@@ -24,6 +25,7 @@ export default function Home() {
       <MainLayout>
         <HeaderSection />
         <AboutMeSection />
+        <SkillSection />
       </MainLayout>
     </main>
   );
