@@ -10,6 +10,13 @@
   background-repeat: no-repeat;
 }
 
+.bg-abstract{
+  background-image: url("../../../public/bg-abstract.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: repeat;
+}
+
 .dark-button {
   font-size: 1rem;
   width: 4em;
