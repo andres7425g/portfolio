@@ -12,7 +12,7 @@ interface SkillsCardProps {
 
 const SkillsCard: React.FC<SkillsCardProps> = ({ title, logo, description }) => {
   return (
-    <Card className="my-4 h-100">
+    <Card className="h-100">
       <Card.Img className="p-5" alt={title} src={logo} />
       <Card.Body>
         <Card.Title className="text-primary text-center">

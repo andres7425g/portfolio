@@ -16,6 +16,7 @@ const SkillSection: React.FC = () => {
         </Row>
         <SkillsSlide />
       </Container>
+      <hr />
     </section>
   );
 };

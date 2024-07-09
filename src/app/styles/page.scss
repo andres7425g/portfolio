@@ -11,10 +11,14 @@
 }
 
 .bg-abstract{
-  background-image: url("../../../public/bg-abstract.jpg");
+  background-image: url("../../../public/bg-projects1.svg");
   background-size: cover;
   background-position: center;
   background-repeat: repeat;
+}
+
+.img-container {
+  min-height: 18rem;
 }
 
 .dark-button {
@@ -96,3 +100,7 @@
     margin-top: -40px;
   }
 }
+
+.backdrop-abstract {
+  backdrop-filter: blur(8px);
+}	

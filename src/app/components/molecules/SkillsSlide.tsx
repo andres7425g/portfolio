@@ -1,13 +1,12 @@
 import React from "react";
 import { Row } from "react-bootstrap";
-import { EffectCoverflow, Pagination } from "swiper/modules";
+import { EffectCoverflow, Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { skillCategories } from "@/app/mocks/skills.mock";
-import SkillsCard from "@/atoms/SkillsCard";
-
-import "swiper/css";
+import SkillsCard from "@/atoms/CardSkill";
 
 const SkillsSlide: React.FC = () => {
+
   return (
     <Row className="d-flex justify-content-center">
       {skillCategories.map((category, idx) => (
@@ -22,6 +21,13 @@ const SkillsSlide: React.FC = () => {
             navigation={true}
             effect={"coverflow"}
             centeredSlides={true}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
+            }}
+            pagination={{
+              clickable: true,
+            }}
             coverflowEffect={{
               rotate: 50,
               stretch: 0,
@@ -29,7 +35,7 @@ const SkillsSlide: React.FC = () => {
               modifier: 1,
               slideShadows: true,
             }}
-            modules={[EffectCoverflow]}
+            modules={[EffectCoverflow, Autoplay]}
           >
             {category.skills.map((skill, index) => (
               <SwiperSlide

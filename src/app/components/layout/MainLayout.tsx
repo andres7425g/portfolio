@@ -1,5 +1,6 @@
 import React from "react";
 import { Container } from "react-bootstrap";
+import "swiper/css";
 
 interface MainLayoutProps {
   children: React.ReactNode;
